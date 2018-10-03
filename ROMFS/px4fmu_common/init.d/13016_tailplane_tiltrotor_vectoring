@@ -21,7 +21,7 @@
 
 sh /etc/init.d/rc.vtol_defaults
 
-if [ $AUTOCNF == yes ]
+if [ $AUTOCNF = yes ]
 then
     param set VT_MOT_COUNT 3
     param set VT_FW_MOT_OFFID 3
