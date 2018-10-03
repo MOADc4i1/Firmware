@@ -27,7 +27,7 @@ set(config_module_list
 	drivers/barometer/ms5611
 	#drivers/blinkm
 	#drivers/bst
-	#drivers/camera_trigger
+	drivers/camera_trigger
 	#drivers/differential_pressure/ets
 	drivers/differential_pressure/ms4525
 	drivers/differential_pressure/ms5525
@@ -49,7 +49,7 @@ set(config_module_list
 	drivers/imu/mpu6000
 	drivers/imu/mpu9250
 	#drivers/iridiumsbd
-	#drivers/irlock
+	drivers/irlock
 	drivers/magnetometer/hmc5883
 	drivers/magnetometer/lis3mdl
 	#drivers/mb12xx
@@ -125,7 +125,7 @@ set(config_module_list
 	modules/ekf2
 	#modules/local_position_estimator
 	#modules/position_estimator_inav
-	#modules/landing_target_estimator
+	modules/landing_target_estimator
 	#modules/wind_estimator
 
 	#
