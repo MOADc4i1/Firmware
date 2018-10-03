@@ -1,0 +1,30 @@
+#Tilt mechanism servo mixer
+#LEFT up:2000 down:1000 (AUX OUT 1)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 1 4      0 -20000  10000 -10000  10000
+
+#RIGHT up: 1000 down: 2000 (AUX OUT 2)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 1 4      0  20000 -10000 -10000  10000
+
+# AUX1 channel (select RC channel with RC_MAP_AUX1 param) (AUX OUT 3)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 5  10000  10000      0 -10000  10000
+
+# AUX2 channel (select RC channel with RC_MAP_AUX2 param) (AUX OUT 4)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 6  10000  10000      0 -10000  10000
+
+# AUX3 channel (select RC channel with RC_MAP_AUX3 param) (AUX OUT 5)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 7  10000  10000      0 -10000  10000
+
+# FLAPS channel (select RC channel with RC_MAP_FLAPS param) (AUX OUT 6)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 4  10000  10000      0 -10000  10000
